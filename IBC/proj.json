@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "state": {
+    "controls": {
+      "angle_mode": true,
+      "angle_start": "0.0",
+      "angle_step": "1.0",
+      "angle_stop": "80.0",
+      "backing": "air",
+      "cbar_auto": true,
+      "cbar_max": "",
+      "cbar_min": "",
+      "dark_mode": false,
+      "dashboard_expand": false,
+      "f_start": "1.0",
+      "f_step": "0.1",
+      "f_stop": "18.0",
+      "header": true,
+      "heatmap_metric": "Metal backed loss (dB)",
+      "inv_angle_start": "0.0",
+      "inv_angle_step": "5.0",
+      "inv_angle_stop": "80.0",
+      "inv_material_mode": "Current layer files",
+      "inv_max_evals": "400",
+      "inv_score_mode": "Worst-case mean metal loss (robust)",
+      "inv_target_start": "8.0",
+      "inv_target_step": "0.25",
+      "inv_target_stop": "12.0",
+      "inv_thick_max": "0.30",
+      "inv_thick_min": "0.03",
+      "inv_thick_steps": "8",
+      "inv_top_n": "10",
+      "inv_unc_eps_pct": "5.0",
+      "inv_unc_mu_pct": "5.0",
+      "inv_unc_t_pct": "5.0",
+      "inv_uncertainty": true,
+      "inv_wave_pol": "HH",
+      "output": "impedance_out.txt",
+      "skiprows": "0",
+      "slice_angle": "40",
+      "slice_freq": "9.5",
+      "unc_eps_pct": "5.0",
+      "unc_mu_pct": "5.0",
+      "unc_t_pct": "5.0",
+      "uncertainty": false,
+      "uncertainty_view": "Nominal",
+      "wave_pol": "HH"
+    },
+    "layers": [
+      {
+        "anisotropic": false,
+        "file_0deg": "C:/Projects/IBC/magram_test_positive.txt",
+        "file_90deg": "",
+        "polarization_deg": 0.0,
+        "thickness_in": 0.125
+      }
+    ]
+  }
+}
